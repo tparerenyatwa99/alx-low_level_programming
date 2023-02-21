@@ -9,8 +9,7 @@
   * Return: always 0 (success)
   *
   */
-
-intmain(void)
+int main(void)
 {
 		int n;
 
