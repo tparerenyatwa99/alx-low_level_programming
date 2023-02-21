@@ -1,12 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
-/**
- * main - Determines if a number is positive, negative or zero
- *
- * Return: Always 0 (Success)
- */
+ /**
+  * main - main block
+  * Description: Determines if a number is positive, negative or zero
+  * and if it is positive, negative, or zero
+  * Return: always 0
+  */
 int main(void)
 {
 		int n;
@@ -17,7 +17,7 @@ int main(void)
 		{
 			printf("%dis positive\n", n);
 		}
-		else if (n == o)
+		else if (n == 0)
 		{
 			printf("%d is zero\n", n);
 		}
@@ -27,4 +27,3 @@ int main(void)
 		}
 		return (0);
 }
-
