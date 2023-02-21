@@ -3,13 +3,15 @@
 #include <time.h>
 
  /**
-  * main - main block
-  * Description: Determines if a number is positive, negative or zero
-  * and if it is positive, negative, or zero
-  * Return: always 0 (success)
+  * main - prints if the number is positive, negative or zero
+  *
+  * Description: a number if it is positive, negative, or zero
+  *
+  * Return: always return 0 (success)
   *
   */
-int main(void)
+
+intmain(void)
 {
 		int n;
 
