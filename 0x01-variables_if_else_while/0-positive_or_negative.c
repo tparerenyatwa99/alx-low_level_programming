@@ -1,13 +1,16 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
+
  /**
   * main - main block
   * Description: Determines if a number is positive, negative or zero
   * and if it is positive, negative, or zero
-  * Return: always 0
+  * Return: always 0 (success)
+  *
   */
-int main(void)
+
+intmain(void)
 {
 		int n;
 
@@ -15,13 +18,13 @@ int main(void)
 		n = rand() - RAND_MAX / 2;
 		if (n > 0)
 		{
-			printf("%dis positive\n", n);
+			printf("%d is positive\n", n);
 		}
 		else if (n == 0)
 		{
 			printf("%d is zero\n", n);
 		}
-		else
+		else if (n < 0)
 		{
 			printf("%d is negative\n", n);
 		}
